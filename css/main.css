@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+
+}
+
+body {
+    font-family: "Space Mono", serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C5E4E7;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 88px;
+    max-width: 920px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.main-content {
+    display: flex;
+    padding: 32px;
+    gap: 48px;
+    box-shadow: 0px 32px 43px 0px #4FA6AF33;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.tip-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+}
+
+h4 {
+    margin-bottom: 16px;
+    letter-spacing: 0px;
+    color: #5E7A7D;
+    line-height: 23px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.tip-selector-pourcentage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+}
+
+.tip-pourcentage,
+#tip-pourcentage-custom {
+    background-color: #00474B;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Space Mono", serif;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0px;
+    border-radius: 5px;
+    width: 117px;
+}
+
+#tip-pourcentage-custom {
+    background-color: #F3F9FA;
+    outline: none;
+    border: none;
+    color: #547878;
+}
+
+#tip-pourcentage-custom::placeholder {
+    color: #547878;;
+}
+
+.tip-results {
+    background-color: #00474B;
+    border-radius: 15px;
+    width: 50%;
+}
